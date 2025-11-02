@@ -38,6 +38,7 @@ Before importing any files, install the following:
   - Select the appropriate profile 
   - Click the Colors tab, expand the "Color Presets" drop-down
   - Select "Import" then select the appropriate `iterm-settings -> colors` itermcolors file
+  - After importing, you may need to expand the "Color Presets" drop-down again, and then choose the new color scheme.
 - Background Image
   - Open `iTerm -> Settings -> Profiles`
   - Select the appropriate profile 
@@ -66,3 +67,15 @@ Before importing any files, install the following:
 - vim plugins
   - Open vim, and run `:PlugInstall` to install all plugins
   - Wait for all plugin installs to complete, and then restart vim
+
+# Post-Installation Steps
+
+### iTerm2 window padding/margins
+
+Many of the background images add top/bottom/side frames as part of the graphics.
+
+To prevent text from overlapping the background image, do the following:
+
+- Open `iTerm -> Settings -> Appearance
+- Adjust "Side margins" and "Top  & bottom margins" to your liking 
+- ***Note!** This is a global setting and will need updated when switching themes4.
